@@ -89,6 +89,11 @@ public class GameManager : MonoBehaviour
         {
             GameStart();
         }
+
+        if (isStart && Input.GetKeyDown(KeyCode.F5))
+        {
+            Gameover();
+        }
     }
 
     private void InitCandy()
